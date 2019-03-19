@@ -43,6 +43,8 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes LICENSE META.json README.md
 %{perl_vendorarch}/auto/*
 %{perl_vendorarch}/CryptX*
+%{perl_vendorarch}/Crypt/*
+%{perl_vendorarch}/Math/*
 %{_mandir}/man3/*
 
 %changelog
