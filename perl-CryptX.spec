@@ -9,6 +9,7 @@ Source0:        http://www.cpan.org/authors/id/M/MI/MIK/CryptX-%{version}.tar.gz
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildRequires:  perl >= 0:5.006
 BuildRequires:  perl(ExtUtils::MakeMaker)
+BuildRequires:  perl(Test::More)
 Requires:       perl(:MODULE_COMPAT_%(eval "`%{__perl} -V:version`"; echo $version))
 
 %description
